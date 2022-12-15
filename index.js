@@ -9,7 +9,7 @@ function timSoNguyenDuong(){
         n++;
         s=s+n;
     }
-    document.getElementById("Tim").innerHTML=`<h2 class="mt-5 text-danger text-center">
+    document.getElementById("tim").innerHTML=`<h2 class="mt-5 text-danger text-center">
         Số nguyên dương nhỏ nhất là ${n} </h2>`;
 }
 
@@ -43,14 +43,14 @@ function tinhGiaiThua(){
     for(i=1;i<=y;i++){
         giaithua=giaithua*i;
     }
-    document.getElementById("tinh_giaithua").innerHTML=`<h2 class="mt-5 text-danger text-center">
+    document.getElementById("tinhGT").innerHTML=`<h2 class="mt-5 text-danger text-center">
     Giai thừa: ${giaithua} </h2>`;
 }
 /*Bài tập 4 */
 
 function taoThe(){
   var html='';
-  var taotheEL=document.getElementById("taothe");
+  var taotheEL=document.getElementById("resultTaoThe");
   
   taotheEL.style.display = "block";
 
